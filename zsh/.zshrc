@@ -1,5 +1,4 @@
-eval "$(zoxide init zsh)"
-
+# PROMPT
 zstyle ':vcs_info:git:*' unstagedstr '*'
 zstyle ':vcs_info:git:*' stagedstr   '+'
 
@@ -18,14 +17,14 @@ setopt PROMPT_SUBST
 
 PROMPT='%F{cyan}%1~%f${vcs_info_msg_0_} > '
  
+
+# PATH
+eval "$(zoxide init zsh)"
 export PATH="$PATH:$(go env GOPATH)/bin"
 # Created by `pipx` on 2026-08-18 21:15:17
 export PATH="$PATH:/Users/jerodriguez@arizona.edu/.local/bin"
-
 export PATH="$PATH:/Users/jerodriguez@arizona.edu/Documents/Personal/code/binaries"
  
- 
- 
- 
- 
- 
+
+ # ALIASES
+ alias lg='lazygit'

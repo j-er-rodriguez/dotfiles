@@ -12,7 +12,9 @@ set softtabstop=4
 
 let g:netrw_liststyle = 3
 let mapleader = " "  
+
 nnoremap <leader>e :Lexplore 30<CR>
+nnoremap <leader>c :bdelete<CR>
 
 nnoremap H :bprevious<CR>
 nnoremap L :bnext<CR>
