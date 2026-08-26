@@ -1,0 +1,24 @@
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# GitHub command-line tool
+brew "gh"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Menu bar calendar
+cask "itsycal"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Multiplayer code editor
+cask "zed"
