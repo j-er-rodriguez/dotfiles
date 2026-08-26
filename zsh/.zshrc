@@ -28,3 +28,4 @@ export PATH="$PATH:/Users/jerodriguez@arizona.edu/Documents/Personal/code/binari
 
  # ALIASES
  alias lg='lazygit'
+ alias ls='eza --color=auto --group-directories-first -F -w 80'

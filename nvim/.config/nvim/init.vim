@@ -28,7 +28,7 @@ set backspace=indent,eol,start
 
 
 " keymaps
-let mapleader = " "  
+let mapleader = " "
 nnoremap <leader>e :Lexplore 30<CR>
 nnoremap <leader>c :bdelete<CR>
 
@@ -55,4 +55,3 @@ function! BuflineList()
 endfunction
 
 set tabline=%!BuflineList()
-
