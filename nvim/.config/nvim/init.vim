@@ -8,6 +8,7 @@ set cursorcolumn
 let g:netrw_liststyle = 3
 set visualbell
 set ttyfast
+set cmdheight=0
 
 
 " editing

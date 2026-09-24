@@ -15,7 +15,7 @@ precmd() {
 }
 setopt PROMPT_SUBST
 
-PROMPT='%F{cyan}%1~%f${vcs_info_msg_0_} > '
+PROMPT='%F{cyan}%1~%f${vcs_info_msg_0_} -> '
  
 
 # PATH
@@ -24,6 +24,9 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 # Created by `pipx` on 2026-08-18 21:15:17
 export PATH="$PATH:/Users/jerodriguez@arizona.edu/.local/bin"
 export PATH="$PATH:/Users/jerodriguez@arizona.edu/Documents/Personal/code/binaries"
+
+export EDITOR="nvim"
+export VISUAL="nvim"
  
 
  # ALIASES
