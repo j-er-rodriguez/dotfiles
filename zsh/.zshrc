@@ -27,8 +27,15 @@ export PATH="$PATH:/Users/jerodriguez@arizona.edu/Documents/Personal/code/binari
 
 export EDITOR="nvim"
 export VISUAL="nvim"
+export PATH="$PATH:$HOME/Documents/Personal/code/binaries"
  
 
  # ALIASES
  alias lg='lazygit'
  alias ls='eza --color=auto --group-directories-first -F -w 80'
+
+# Prefer Homebrew Python/tools over system defaults
+export PATH="/opt/homebrew/bin:$PATH"
+
+# NPC-Forge user binaries path
+export PATH="$HOME/.local/bin:$PATH"
